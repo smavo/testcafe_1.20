@@ -1,6 +1,6 @@
 const { Selector } = require("testcafe");
 
-fixture `Login Suite`.page('https://saucedemo.com/');
+fixture `Login Suite`.page('./');
 
 test('Valid Login', async (t) =>{
     await t
