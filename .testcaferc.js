@@ -5,5 +5,5 @@ module.exports = {
     hostname: os.hostname(),
 
     baseUrl: "https://saucedemo.com/",
-    concurrency: 1,
+    //concurrency: 2,
 }

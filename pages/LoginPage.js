@@ -12,6 +12,7 @@ class LoginPage {
         await t
             .typeText(this.usernameInput, username)
             .typeText(this.passwordInput, password)
+            //.debug()
             .click(this.loginButton);
     }
 }

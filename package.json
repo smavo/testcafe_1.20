@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"tescafe chrome test/login.js"
+    "test:test": "echo \"Error: no test specified\" && exit 1",
+    "test:start":"tescafe chrome test/login.js"
   },
   "keywords": [],
   "author": "",

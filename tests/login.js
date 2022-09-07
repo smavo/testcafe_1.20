@@ -19,6 +19,7 @@ test('InValid Login', async (t) => {
         //    .typeText('#user-name','test')
         //    .typeText('#password','test')
         //    .click('#login-button')
+        .takeScreenshot("./screenshots")
         .expect(Selector(`h3[data-test="error"]`).innerText)
         .eql("Epic sadface: Username and password do not match any user in this service");
 })
